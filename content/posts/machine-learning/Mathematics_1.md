@@ -1,8 +1,8 @@
 +++
-date = 2025-11-30
+date = 2025-11-10
 title = '机器学习中的数学'
 categories = ['学习笔记']
-tags = ['Mathematics', 'Foundations', 'Machine Learning']
+tags = ['数学', '机器学习']
 showHero = true
 file = 'Mathematics_1.md'
 +++
@@ -37,7 +37,7 @@ file = 'Mathematics_1.md'
 
 ## 多项式模型
 
-考虑一个 $n$ 阶多项式模型，它试图用特征 $x$ 来预测目标值 $y$：
+考虑一个 \( n \) 阶多项式模型，它试图用特征 \( x \) 来预测目标值 \( y \)：
 
 $$
 y = \omega_0 + \omega_1 x + \omega_2 x^2 + \ldots + \omega_n x^n
@@ -49,7 +49,7 @@ $$
 y = \sum_{i=0}^{n} \omega_i x^i
 $$
 
-我们可以将这个多项式模型表示为向量的形式。定义一个特征向量 $\mathbf{X}$ 和一个参数向量 $\mathbf{\Omega}$：
+我们可以将这个多项式模型表示为向量的形式。定义一个特征向量 \(\mathbf{X}\) 和一个参数向量 \(\mathbf{\Omega}\)：
 
 $$
 \mathbf{X} = \begin{bmatrix}1 \\
@@ -69,7 +69,7 @@ $$
 y = \mathbf{\Omega}^\top \mathbf{X} = \sum_{i=0}^{n} \omega_i x^i
 $$
 
-点积 $\mathbf{\Omega}^\top \mathbf{X}$ 表示参数向量 $\mathbf{\Omega}$ 和特征向量 $\mathbf{X}$ 的乘积，结果是一个标量，即预测值 $y$。
+点积 \(\mathbf{\Omega}^\top \mathbf{X}\) 表示参数向量 \(\mathbf{\Omega}\) 和特征向量 \(\mathbf{X}\) 的乘积，结果是一个标量，即预测值 \(y\)。
 
 # 极限
 
