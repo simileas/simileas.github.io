@@ -1,0 +1,12 @@
+# disable for Hugo generated files
+public/
+resources/_gen/
+hugo_stats.json
+
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+.hugo_build.lock
+*.hugo_lock

@@ -1,0 +1,30 @@
+disabled = false
+languageCode = "zh-cn"
+languageName = "简体中文"
+weight = 1
+title = "不加糖 ❤️ 主页"
+
+[params]
+  displayName = "简体中文"
+  isoCode = "zh-cn"
+  rtl = false
+  dateFormat = "2006-01-02"
+  timeFormat = "15:04"
+  dateTimeFormat = "2006-01-02 15:04"
+  shortDateFormat = "2006-01-02"
+  shortTimeFormat = "15:04"
+  shortDateTimeFormat = "2006-01-02 15:04"
+  logo = "img/logo-en.png"
+
+[params.author]
+  name = "不加糖"
+  email = "simileas@gmail.com"
+  image = "Haibara_1.jpg"
+  imageQuality = 96
+  bio = "Nothing special about me."
+  location = "Earth"
+  links = [
+    { email = "mailto:simileas@gmail.com" },
+    { github = "https://github.com/simileas" },
+    { x-twitter = "https://twitter.com/simileas" },
+  ]
