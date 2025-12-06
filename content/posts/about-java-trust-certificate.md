@@ -1,7 +1,7 @@
 +++
 date = 2025-01-01
-categories = ['开发备忘录']
-tags = ['Java', 'SSL', 'TLS', 'Certificate', 'JSSE', 'Hadoop']
+categories = ['开发备忘']
+tags = ['Java', 'Hadoop', '证书管理', 'SSL/TLS']
 title = 'Java 环境下的证书生成与信任管理'
 filename = 'about-java-trust-certificate.md'
 showHero = true

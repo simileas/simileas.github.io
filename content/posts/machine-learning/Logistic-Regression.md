@@ -1,8 +1,8 @@
 +++
 date = 2025-11-25
 title = "逻辑回归(Logistic Regression)"
-tags = ["机器学习", "统计学", "分类算法"]
 categories = ["学习笔记"]
+tags = ["机器学习", "统计学", "分类算法"]
 showHero = true
 file = "Logistic-Regression.md"
 +++
@@ -35,7 +35,7 @@ $$
 
 在二维平面上进行二元分类时，逻辑回归模型找到的决策边界是一条直线，将数据点分为两类。
 
-预测概率 $h_\theta(x)$ 由以下公式给出（我们已知公式，就不从头推导了）：
+预测概率 \(h_\theta(x)\) 由以下公式给出（我们已知公式，就不从头推导了）：
 
 $$
 h_\theta(x) = \sigma(\theta^T x) = \frac{1}{1 + e^{-\theta^T x}}

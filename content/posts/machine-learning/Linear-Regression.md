@@ -2,7 +2,7 @@
 date = '2025-11-22'
 title = '线性回归'
 categories = ['学习笔记']
-tags = ['Linear Regression', 'Supervised Learning', 'Statistics']
+tags = ['线性回归', '机器学习', '监督学习']
 showHero = true
 +++
 
