@@ -196,11 +196,3 @@ h_\theta(x) = \sigma(1.5) = \frac{1}{1 + e^{-1.5}} \approx 0.8176
 $$
 
 因此，该模型预测该用户购买该产品的概率约为81.76%。
-
-# 参考资料
-
-- [Logistic Regression - Wikipedia](https://en.wikipedia.org/wiki/Logistic_regression)
-- [Scikit-learn Logistic Regression Documentation](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
-- [Understanding the Sigmoid Function](https://towardsdatascience.com/understanding-the-sigmoid-function-9b3f7f4d3f2d)
-- [Machine Learning Mastery: Logistic Regression](https://machinelearningmastery.com/logistic-regression-for-machine-learning/)
-- [Coursera: Machine Learning by Andrew Ng](https://www.coursera.org/learn/machine-learning)
