@@ -36,27 +36,6 @@ Ticket 和 Cabin 特征也常常被忽略，前者因为其复杂性和多样性
 
 剩余的数值特征如 Pclass、Age、SibSp、Parch 和 Fare 可以直接用于模型训练，但可能需要进行归一化或标准化处理。
 
-# 成人收入数据集描述
-
-数据集有 15 个特征，主要包括：
-
-- **age**: 年龄
-- **workclass**: 工作类别
-- **fnlwgt**: 最终权重
-- **education**: 教育水平
-- **education-num**: 教育年限
-- **marital-status**: 婚姻状况
-- **occupation**: 职业
-- **relationship**: 家庭关系
-- **race**: 种族
-- **gender**: 性别
-- **capital-gain**: 理财收益
-- **capital-loss**: 理财损失
-- **hours-per-week**: 每周工作小时数
-- **native-country**: 原籍国
-
-目标变量是 **income**，表示收入是否超过 5 万美元（<=50K 或 >50K）。
-
 # 数据查看
 
 一般机器学习工作的第一步都是使用 Pandas 库加载并查看数据集，以下几个方法：
